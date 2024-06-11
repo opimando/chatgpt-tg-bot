@@ -1,0 +1,25 @@
+﻿services:
+  db:
+    image: postgres:14.1-alpine
+    hostname: db
+    restart: always
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=123456
+    ports:
+      - '5411:5432'
+  seq:
+    image: datalust/seq:2023.2
+    hostname: seq
+    environment:
+      - ACCEPT_EULA=Y
+    ports:
+      - 5412:80
+  chatgptbot:
+    image: chatgptbot
+    environment:
+      - ApiKey=key
+      - ConnectionString=Server=db;port=5432;Database=chatgpt;User Id=postgres;Password=123456
+    build:
+      context: .
+      dockerfile: ChatGptBot/Dockerfile

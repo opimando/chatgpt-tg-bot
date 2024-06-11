@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatGptBot", "ChatGptBot\ChatGptBot.csproj", "{18CFE85E-5F56-4B4C-A5E2-E2E91EA66240}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bot.DbModel", "Bot.DbModel\Bot.DbModel.csproj", "{AB892F37-33CE-45F4-AF95-D99F4340C28A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{337088ED-1C28-4F6D-BFD7-E7D0E341B835}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18CFE85E-5F56-4B4C-A5E2-E2E91EA66240}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18CFE85E-5F56-4B4C-A5E2-E2E91EA66240}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18CFE85E-5F56-4B4C-A5E2-E2E91EA66240}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18CFE85E-5F56-4B4C-A5E2-E2E91EA66240}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB892F37-33CE-45F4-AF95-D99F4340C28A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB892F37-33CE-45F4-AF95-D99F4340C28A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB892F37-33CE-45F4-AF95-D99F4340C28A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB892F37-33CE-45F4-AF95-D99F4340C28A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal
